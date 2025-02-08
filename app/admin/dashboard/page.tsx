@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { client } from "@/sanity/lib/client";
 import Swal from "sweetalert2";
-import ProtectedRoute from "@/app/components/protected/page";
+import ProtectedRoute from "@/app/components/protected";
 import Image from "next/image";
 
 interface Order {
